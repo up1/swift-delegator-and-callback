@@ -16,7 +16,6 @@
 		A266CC831D2E39290035A8EC /* DelegateWorkshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A266CC821D2E39290035A8EC /* DelegateWorkshopUITests.swift */; };
 		A266CC941D2E39820035A8EC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A266CC911D2E39820035A8EC /* MainViewController.swift */; };
 		A266CC951D2E39820035A8EC /* MyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A266CC921D2E39820035A8EC /* MyNetwork.swift */; };
-		A266CC961D2E39820035A8EC /* NetworkDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A266CC931D2E39820035A8EC /* NetworkDelegator.swift */; };
 		C351CBAC570D072B6B3697DF /* Pods_DelegateWorkshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B488EC5BC3F69E9E748F792 /* Pods_DelegateWorkshop.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +54,6 @@
 		A266CC841D2E39290035A8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A266CC911D2E39820035A8EC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A266CC921D2E39820035A8EC /* MyNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNetwork.swift; sourceTree = "<group>"; };
-		A266CC931D2E39820035A8EC /* NetworkDelegator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDelegator.swift; sourceTree = "<group>"; };
 		DFEE499B46DD7EAF521061D1 /* Pods-DelegateWorkshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelegateWorkshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-DelegateWorkshop/Pods-DelegateWorkshop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,7 +159,6 @@
 			children = (
 				A266CC911D2E39820035A8EC /* MainViewController.swift */,
 				A266CC921D2E39820035A8EC /* MyNetwork.swift */,
-				A266CC931D2E39820035A8EC /* NetworkDelegator.swift */,
 			);
 			name = use_protocol;
 			sourceTree = "<group>";
@@ -352,7 +349,6 @@
 				A266CC651D2E39290035A8EC /* ViewController.swift in Sources */,
 				A266CC951D2E39820035A8EC /* MyNetwork.swift in Sources */,
 				A266CC631D2E39290035A8EC /* AppDelegate.swift in Sources */,
-				A266CC961D2E39820035A8EC /* NetworkDelegator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

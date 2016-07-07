@@ -1,21 +1,19 @@
 import UIKit
 
-class MainViewController: UIViewController, NetworkDelegator {
+class MainViewController: UIViewController {
     
     
     let myNetwork = MyNetwork()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        myNetwork.delegate = self
     }
     
     @IBAction func onClick(sender: AnyObject) {
-        myNetwork.loadDataFromApi()
-    }
-
-    func didSuccessShowData(result: String) {
-        print("Result from server is \(result)")
+        myNetwork.loadDataFromApi();
+        myNetwork.onSuccess = { result in
+            print("Result from server is \(result)")
+        }
     }
     
 
